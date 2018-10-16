@@ -2,6 +2,9 @@ public class RationalNumber extends RealNumber{
   private int num, den;
 
   public RationalNumber(int num, int den){
+    this.int = num;
+    this.den = den;
+    super((num + 0.0) / den);
   }
 
   public String toString(){

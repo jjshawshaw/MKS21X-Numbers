@@ -2,9 +2,7 @@ public class RealNumber{
   private double value;
 
   public RealNumber(double value){
-  }
-
-  public RealNumber(){
+    this.value = value;
   }
 
   public double getValue(){
